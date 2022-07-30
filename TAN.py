@@ -14,9 +14,6 @@ import loading
 from minibatch import MinibatchIterator
 
 
-
-
-
 rate=5
 model_id = 565
 MODEL_SAVE_PATH = "Model/model_0"
@@ -181,7 +178,6 @@ class model(object):
 
 
     def forward(self,largest_path):
-
         self.largest_path=largest_path
         self.get_weights_bias()
         #----------------------------------------Input Layer------------------------------------------------------------
@@ -265,24 +261,14 @@ class model(object):
 
 
     def train(self, train_file,test_file):
-
-
         for i in range(self.epochs):
-
             rmse, mae, nmae = self.evaluate_train(train_file)
-
             print("Train_%d: RMSE: %f MAE: %f NMAE: %f" % (i, rmse, mae, nmae))
             '''
             rmse1, mae1, nmae1 = self.evaluate_test(test_file)
 
             print("Test_%d: RMSE: %f MAE: %f NMAE: %f" % (i, rmse1, mae1, nmae1))
             '''
-
-
-
-
-
-            
 
     def evaluate_train(self, train_file):
         
@@ -389,51 +375,3 @@ if __name__ == '__main__':
     BRNN.test(test_file)
 
     print("successful")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

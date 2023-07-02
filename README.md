@@ -1,4 +1,4 @@
-# TAN
+# Reference
 This is the dataset and sourcecode of TAN for the following paper:
 ```
 @article{LiWCHH22,

@@ -1,5 +1,5 @@
 # Reference
-This is the dataset and sourcecode of TAN for the following paper:
+***We really appreciate if your publications resulting from the projects that make use of TAN would cite our work!***
 ```
 @article{LiWCHH22,
   author    = {Jiahui Li and Hao Wu and Jiapei Chen and Qiang He and Ching{-}Hsien Hsu},
@@ -13,7 +13,6 @@ This is the dataset and sourcecode of TAN for the following paper:
   doi       = {10.1109/TPDS.2021.3116865}
 }
 ```
-***We really appreciate if your publications resulting from the projects that make use of TAN would cite our work!***
 
 # Requirements
 ...

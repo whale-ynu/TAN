@@ -13,6 +13,8 @@ This is the dataset and sourcecode of TAN for the following paper:
   doi       = {10.1109/TPDS.2021.3116865}
 }
 ```
+***We really appreciate if your publications resulting from the projects that make use of TAN would cite our work!***
+
 # Requirements
 ...
 #
